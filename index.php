@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,9 +13,8 @@
 </head>
 <body >
 	
-	
 		<div  class="d-flex justify-content-center">
-			<img src="https://www.softzone.es/app/uploads-softzone.es/2016/03/Logo-de-Outlook-portada-930x452.jpg" class="img-fluid" alt="Responsive image">
+			<img src="https://www.nacionrex.com/__export/1523478000646/sites/debate/img/2018/04/11/cc_2612273_167eb6e50b83410c8b1e00957abd1714_meme_otros_quien_demonios_la_entiende_del_todo_thumb_fb_1.jpg_242310155.jpg" class="img-fluid" alt="Responsive image">
 		</div>
 
 		<div class="d-flex justify-content-center">
@@ -26,54 +24,10 @@
 					<input  type="" class="form-control" name="nombre" placeholder="introduce nombre" required></br>
 					<label >contraseña </label>
 					<input type="password" class="form-control" name="contra" placeholder="introduce contraseña"required></br>
-					<!--
 
-					<div class="form-check ">
-						<input type="checkbox" class="form-check-input" name="mantenersesion">
-						<label class="form-check-label" for="exampleCheck1">seguir conectado</label>
-					</div>
-					-->
-
-					
 					<input type="submit" class="btn btn-primary" value="iniciar sesion">
 				</div>
 			</form>
 		</div>
-<!--
-		<div class="d-flex justify-content-center">
-			<form action="userregistrado.php" method="POST">
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
-					registrarte
-				</button>
-				<div class="modal fade" id="exampleModal1" role="dialog" >
-					<div class="modal-dialog" >
-						<div class="modal-content">
-							<div class="modal-header bg-primary text-light">
-								<h5 class="modal-title bg-primary" id="exampleModalLabel1">registro de usuario</h5>
-								<button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-							</div>
-							<div class="modal-body">
-									<div class="form-group">
-										<label >correo </label>
-										<input type="email" class="form-control"  placeholder="introduce tu correo" required="true" name="correo" required>
-									</div>
-									<div class="form-group">
-										<label >contraseña</label>
-										<input type="password" class="form-control" placeholder="introduce tu contraseña" required="true" name="contra" required>
-									</div>
-									<div class="form-group">
-										<label >nombre</label>
-										<input type="text" class="form-control" placeholder="introduce tu nombre" required="true" name="nombre" required>
-									</div>
-							</div>
-							<div class="modal-footer">
-								<input type="submit" class="btn btn-primary" value="registrar" name="registro">
-							</div>
-						</div>
-					</div>
-				</div>
-			</form>
-		</div>
--->
 </body>
 </html>
