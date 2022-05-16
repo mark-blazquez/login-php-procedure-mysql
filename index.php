@@ -12,9 +12,23 @@
 	
 </head>
 <body >
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+	/* CSS */
+	#boton{
+	background-color: #EA4C89;
+	}
+	@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+	body {
+	background: #272727;
+	font-family: "Montserrat", sans-serif;
+	}
+</style>
 	
 		<div  class="d-flex justify-content-center">
-			<img src="https://www.nacionrex.com/__export/1523478000646/sites/debate/img/2018/04/11/cc_2612273_167eb6e50b83410c8b1e00957abd1714_meme_otros_quien_demonios_la_entiende_del_todo_thumb_fb_1.jpg_242310155.jpg" class="img-fluid" alt="Responsive image">
+			<img src="./logo.jpg" class="img-fluid" alt="Responsive image">
 		</div>
 
 		<div class="d-flex justify-content-center">
@@ -24,8 +38,9 @@
 					<input  type="" class="form-control" name="nombre" placeholder="introduce nombre" required></br>
 					<label >contraseña </label>
 					<input type="password" class="form-control" name="contra" placeholder="introduce contraseña"required></br>
-
-					<input type="submit" class="btn btn-primary" value="iniciar sesion">
+					<div class="d-flex justify-content-center">
+						<input type="submit" id="boton"  class="btn " value="iniciar sesion">
+					</div>
 				</div>
 			</form>
 		</div>
