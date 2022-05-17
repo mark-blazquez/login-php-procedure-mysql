@@ -20,11 +20,16 @@
 			$nombreseguro=$row[0];
 			$contrasegura=$row[1];
 		}
+
 		if ($nombreseguro==""){
 			header("location:pagerror.html");
 		}else{
 			if($nombre=$nombreseguro){
-			header("location:kubectl4everyone/public/index.php");
+				if($nombre=$nombreseguro){
+
+					header("location:http://localhost:8085");
+					//crear cookie para la verificacion de la pag de symfony
+				}
 
 			}
 		}
