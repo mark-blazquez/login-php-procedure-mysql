@@ -25,9 +25,9 @@
 			header("location:pagerror.html");
 		}else{
 			if($nombre=$nombreseguro){
-				if($nombre=$nombreseguro){
+				if($contrasena=$contrasegura){
 
-					header("location:http://localhost:8085");
+					header("location:http://192.168.1.132:8085");
 					//crear cookie para la verificacion de la pag de symfony
 				}
 
