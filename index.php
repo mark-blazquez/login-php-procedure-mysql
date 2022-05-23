@@ -1,3 +1,9 @@
+<?php
+    if(isset($_COOKIE["usuario"])){
+		header("location:https://192.168.1.132:8085");
+
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>

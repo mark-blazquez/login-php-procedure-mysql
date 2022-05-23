@@ -14,32 +14,24 @@
 
 		$sentencia = $con->prepare($sql);
 		$sentencia->bindValue(":nombre", $nombre);
-        $sentencia->bindValue(":contra", $contra);
+		$sentencia->bindValue(":contra", $contra);
 		$sentencia->execute();
-		foreach( $sentencia as $row){
-			$nombreseguro=$row[0];
-			$contrasegura=$row[1];
+		foreach ($sentencia as $row) {
+			$nombreseguro = $row[0];
+			$contrasegura = $row[1];
 		}
 
-		if ($nombreseguro==""){
+		if ($nombreseguro == "") {
 			header("location:pagerror.html");
-		}else{
-			if($nombre=$nombreseguro){
-				if($contrasena=$contrasegura){
-					if(isset($_COOKIE["usuario"])){
-						header("location:https://192.168.1.132:8085");
-
-					}else {
-						header("location:https://192.168.1.132:8085");
-						//crear cookie para la verificacion de la pag de symfony
-						setcookie("usuario",time()+(365*24*60*60));
-					}
-
+		} else {
+			if ($nombre = $nombreseguro) {
+				if ($contrasena = $contrasegura) {
+					header("location:https://192.168.1.132:8085");
+					//crear cookie para la verificacion de la pag de symfony
+					setcookie("usuario", time() + (365 * 24 * 60 * 60));
 				}
-
 			}
 		}
-
 	} catch (PDOException $e) {
 		echo 'Fallo la conexion:' . $e->GetMessage();
 	}
