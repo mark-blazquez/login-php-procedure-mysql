@@ -29,6 +29,7 @@
 
 					header("location:http://192.168.1.132:8085");
 					//crear cookie para la verificacion de la pag de symfony
+					setcookie("usuario",time()+(365*24*60*60));
 				}
 
 			}
