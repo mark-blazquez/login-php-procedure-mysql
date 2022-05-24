@@ -1,6 +1,6 @@
 <?php
     if(isset($_COOKIE["usuario"])){
-		header("location:https://192.168.1.132:8085");
+		header("location:https://torre-ubuntu.ddns.net:8085");
 
 	}
 ?>
