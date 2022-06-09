@@ -1,4 +1,5 @@
 <?php
+	//si existe la cookie directamente reenvia a la pag de gestion
     if(isset($_COOKIE["usuario"])){
 		header("location:https://torre-ubuntu.ddns.net:8085");
 
@@ -36,7 +37,7 @@
 		<div  class="d-flex justify-content-center">
 			<img src="./logo.jpg" class="img-fluid" alt="Responsive image">
 		</div>
-
+		<!-- el formulario con campos requeridos-->
 		<div class="d-flex justify-content-center">
 			<form action="./sesion.php" method="post">
 				<div class="form-group">
